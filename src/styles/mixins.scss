@@ -1,0 +1,14 @@
+@import "~breakpoint-sass/stylesheets/_breakpoint.scss";
+
+@mixin wholeAbsolute($size: 0) {
+  top: $size;
+  right: $size;
+  bottom: $size;
+  left: $size;
+}
+
+@mixin truncate-text() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

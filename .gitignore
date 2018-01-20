@@ -1,0 +1,8 @@
+index.html
+yarn-error.log
+.idea/
+.nyc_output/
+build/
+coverage/
+node_modules/
+src/services/translations/intl/

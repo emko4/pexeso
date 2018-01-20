@@ -1,0 +1,48 @@
+@import '../../styles/constants';
+@import '../../styles/mixins';
+
+$robot-width: 240px;
+$robot-height: 261px;
+$shadow-height: 24px;
+$eyes-offset: 29px;
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.error-page .error-page-content {
+  color: $COLOR_BLUE;
+}
+
+.error-page .error-page-content .title {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.error-page .error-page-content .action-wrap {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.5em;
+}
+
+.error-page .error-page-content .action-wrap .refresh-button {
+  position: relative;
+  margin-left: 100px;
+  padding: 10px 15px;
+
+  border: 0;
+  background-color: $COLOR_BLUE;
+  outline: 0;
+
+  color: $COLOR_WHITE;
+
+  cursor: pointer;
+  user-select: none;
+}

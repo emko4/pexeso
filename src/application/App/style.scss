@@ -1,0 +1,20 @@
+// Import React Toastr styles
+@import '~react-redux-toastr/src/styles/index';
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 12pt;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+input, button {
+  font-size: 12pt;
+  padding: 0;
+}
